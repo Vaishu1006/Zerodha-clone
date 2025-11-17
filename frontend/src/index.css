@@ -36,3 +36,65 @@ code {
   border-radius: 10px;
   border: none;
 }
+#getotp:hover{
+  background-color: grey;
+}
+
+#Investmentoptions{
+  display: flex;
+  justify-content: space-evenly;
+}
+.account-card {
+    background: #fff;
+    border: 1px solid #e6e9ec;
+    border-radius: 12px;
+    padding: 25px;
+    display: flex;
+    gap: 15px;
+    height: 100%;
+    transition: 0.2s ease;
+}
+
+.account-card:hover {
+    box-shadow: 0 4px 20px rgba(0,0,0,0.07);
+    transform: translateY(-2px);
+}
+
+.account-icon-wrapper {
+    width: 48px;
+    height: 48px;
+    background: #e8f0fe;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.account-icon {
+    width: 28px;
+    height: 28px;
+}
+
+.steps-number {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid #d1d1d1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    color: #555;
+    margin-right: 20px;
+    font-size: 1.1rem;
+}
+
+.step-row {
+    display: flex;
+    align-items: center;
+    padding: 15px 0;
+}
+
+.step-row:not(:last-child) {
+    border-bottom: 1px solid #e5e5e5;
+}
