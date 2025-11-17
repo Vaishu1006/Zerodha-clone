@@ -4,7 +4,7 @@ function Signup() {
     return (
         <div className="container mt-5">
 
-            {/* 🔵 SIGNUP HEADER */}
+            {/* SIGNUP HEADER */}
             <div className="row align-items-center mt-5" style={{ padding: "50px 0" }}>
                 <div className="text-center mb-4">
                     <h1>Open a free demat and trading account</h1>
@@ -68,14 +68,14 @@ function Signup() {
                 </div>
             </div>
 
-            {/* 🔵 INVESTMENT OPTIONS TITLE */}
+            {/* INVESTMENT OPTIONS TITLE */}
             <div className="row mt-5">
                 <h1 className="text-center">
                     Investment options with Zerodha demat account
                 </h1>
             </div>
 
-            {/* 🔵 2×2 GRID */}
+            {/* 2×2 GRID */}
             <div className="row mt-5">
 
                 {/* ITEM 1 */}
@@ -173,7 +173,7 @@ function Signup() {
 </div>
 
 
-            {/* 🔵 BENEFITS SECTION */}
+            {/*BENEFITS SECTION */}
             <div className="row align-items-center mt-5">
 
                 {/* LEFT IMAGE */}
@@ -212,7 +212,7 @@ function Signup() {
             </div>
 
 
-            {/* 🌟 EXPLORE ACCOUNT TYPES */}
+            {/* EXPLORE ACCOUNT TYPES */}
             <div className="container mt-5">
                 <h2 className="text-center mb-5">Explore different account types</h2>
 
